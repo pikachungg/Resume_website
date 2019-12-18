@@ -1,0 +1,13 @@
+.column1 {
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  background-color: green;
+}
+
+.column2 {
+  width: 50vw;
+  height: 100vh;
+  float: right;
+  background-color: blue;
+}
