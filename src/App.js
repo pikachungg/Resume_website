@@ -6,14 +6,16 @@ function App() {
   return (
     <div className="wrapper">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet"></link>
-		<div className="column1">
-			<img src={me} alt="a picture of me"/>
-			<div className="center">
-				<h3>Hi, I'm Daniel Chung</h3>
-				<p>A Web developer aiming to create beautiful and efficient websites and applications.</p>
+		<div className="container">
+
+			<div className="left">
+				<img src={me} alt="A picture of me"/>
 			</div>
-		</div>
-		<div className="column2">
+
+			<div className="right">
+				<p>asdfasdfasdf</p>
+				<p>asdfasdfasdfdfasdf</p>
+			</div>
 
 		</div>
     </div>
