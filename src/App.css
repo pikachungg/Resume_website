@@ -1,13 +1,40 @@
-.column1 {
-  width: 50vw;
+.column1{
+  width: 50%;
   height: 100vh;
   float: left;
+  position: relative;
+  text-align: center;
+  color: white;
   background-color: green;
+  overflow: hidden;
+}
+
+.column1 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center p {
+  margin-block-start: 1%;
+  margin-block-end: 1%;
+}
+
+.center h3 {
+  margin-block-start: 1%;
+  margin-block-end: 1%;
 }
 
 .column2 {
-  width: 50vw;
-  height: 100vh;
   float: right;
   background-color: blue;
 }
