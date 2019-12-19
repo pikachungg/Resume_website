@@ -29,10 +29,34 @@
 	width: 50vw;
 	height: 100vh;
 	float: right;
-	background-color: green;
+	background-color: white;
 }
 
 .container::after {
+	display:block;
+	content:"";
+	clear:both;
+}
+
+.introduction{
+	padding-top: 6%;
+}
+
+.introduction h3{
+	margin-left: 5%;
+	float: left;
+}
+
+.div-content {
+	margin-top: 1%;
+	width: 60vh;
+	margin-left: 10%;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.introduction::after {
 	display:block;
 	content:"";
 	clear:both;

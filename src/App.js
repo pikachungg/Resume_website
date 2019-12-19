@@ -17,8 +17,13 @@ function App() {
 			</div>
 
 			<div className="right">
-				<p>asdfasdfasdf</p>
-				<p>asdfasdfasdfdfasdf</p>
+				<div className="introduction">
+					<h3>Introduction: </h3>
+					<div className="div-content">
+						<p>I'm a Web developer born and raised in Panama, I'm persuing a degree in Web and Mobile Computing at Rochester Institute of Technology.</p>
+						<p>I'm currently looking for a Summer Co-Op in 2020. Specifically in front-end or back-end.</p>
+					</div>
+				</div>
 			</div>
 
 		</div>
