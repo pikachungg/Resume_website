@@ -8,7 +8,7 @@
 	height: 100vh;
 	float: left;
 	color: white;
-	position: relative;
+	position: fixed;
 	text-align: center;
 	overflow: hidden;
 }
@@ -43,14 +43,18 @@
 }
 
 .introduction h3{
-	margin-left: 5%;
+	margin-left: 7%;
+	width: 7vw;
 	float: left;
+	background: -webkit-linear-gradient(right, #F6BE00, #F76902);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
 
 .div-content {
 	margin-top: 1%;
-	width: 60vh;
-	margin-left: 10%;
+	width: 67vh;
+	margin-left: 3%;
 	float: left;
 	font-family: 'Roboto', sans-serif;
 
@@ -60,4 +64,25 @@
 	display:block;
 	content:"";
 	clear:both;
+}
+
+.college-name {
+	font-style: italic;
+	font-weight: 500;
+	margin: 0 0 0;
+}
+
+.university {
+	padding-top: 3%;
+	font-weight: 700;
+	margin: 0 0 0;
+}
+
+.major{
+	font-weight: 500;
+}
+
+.expected-graduation{
+	font-weight: 700;
+	color: rgb(179, 179, 179);
 }

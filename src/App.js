@@ -18,12 +18,42 @@ function App() {
 
 			<div className="right">
 				<div className="introduction">
-					<h3>Introduction: </h3>
+					<h3>Intro: </h3>
 					<div className="div-content">
-						<p>I'm a Web developer born and raised in Panama, I'm persuing a degree in Web and Mobile Computing at Rochester Institute of Technology.</p>
+						<p>I'm a Web developer born and raised in Panama, I'm currently on my third year persuing a degree in Web and Mobile Computing at Rochester Institute of Technology.</p>
+						<p>I enjoy making people's ideas into reality. Wether it is an application or a Website I love working with people to create something from start to fnish.</p>
 						<p>I'm currently looking for a Summer Co-Op in 2020. Specifically in front-end or back-end.</p>
 					</div>
 				</div>
+
+				<div className="introduction">
+					<h3>Education: </h3>
+					<div className="div-content">
+						<p className="university">Rochester Institute of Technology</p>
+						<p className="college-name">Golisano College of Computing and Information Sciences</p>
+						<p><span className="major">Major:</span> Web and Mobile Computing</p>
+						<p className="expected-graduation">Expected Graduation: Spring 2021</p>
+					</div>
+				</div>
+
+				<div className="introduction">
+					<h3>Tools: </h3>
+					<div className="div-content">
+						<p>LANGUAGES: Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP</p>
+						<p>FRAMEWORKS/LIBRARIES: Bootstrap, React</p>
+						<p>DESIGN: Adobe Photoshop, Adobe XD</p>
+					</div>
+				</div>
+
+				<div className="introduction">
+					<h3>Work: </h3>
+					<div className="div-content">
+						<p>LANGUAGES: Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP</p>
+						<p>FRAMEWORKS/LIBRARIES: Bootstrap, React</p>
+						<p>DESIGN: Adobe Photoshop, Adobe XD</p>
+					</div>
+				</div>
+
 			</div>
 
 		</div>
