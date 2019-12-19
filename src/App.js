@@ -10,6 +10,10 @@ function App() {
 
 			<div className="left">
 				<img src={me} alt="A picture of me"/>
+				<div className="image-content">
+					<h3>I'm Daniel Chung</h3>
+					<p>Web developer that aims to create impactful websites and applications with effective code.</p>
+				</div>
 			</div>
 
 			<div className="right">

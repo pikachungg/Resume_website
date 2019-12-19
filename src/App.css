@@ -7,6 +7,18 @@
 	width: 50vw;
 	height: 100vh;
 	float: left;
+	color: white;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+
+.image-content{
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
 }
 
 .left img {
