@@ -19,6 +19,7 @@
 .image-content{
 	top: 60%;
 	left: 50%;
+	width: 20vw;
 	transform: translate(-50%, -50%);
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
@@ -209,6 +210,15 @@ footer {
 		background: -webkit-linear-gradient(right, #F6BE00, #F76902);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
+	}
+
+	.image-content{
+		top: 60%;
+		left: 50%;
+		width: 70vw;
+		transform: translate(-50%, -50%);
+		font-family: 'Roboto', sans-serif;
+		position: absolute;
 	}
 
 	.right{
