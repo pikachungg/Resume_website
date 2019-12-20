@@ -1,3 +1,7 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
 .container {
 	width: 100vw;
 	height: 100vh;
@@ -6,8 +10,8 @@
 .left {
 	width: 50vw;
 	height: 100vh;
-	float: left;
 	color: white;
+	float: left;
 	position: fixed;
 	text-align: center;
 	overflow: hidden;
@@ -29,7 +33,8 @@
 	width: 50vw;
 	height: 100vh;
 	float: right;
-	background-color: white;
+	color: rgb(48, 48, 48);
+	background-color: #FFFFFF;
 }
 
 .container::after {
@@ -39,11 +44,13 @@
 }
 
 .introduction{
-	padding-top: 6%;
+	padding-top: 3%;
 }
 
 .introduction h3{
+	margin-top: 0;
 	margin-left: 7%;
+	padding-right: 7%;
 	width: 7vw;
 	float: left;
 	background: -webkit-linear-gradient(right, #F6BE00, #F76902);
@@ -52,18 +59,24 @@
 }
 
 .div-content {
-	margin-top: 1%;
-	width: 67vh;
-	margin-left: 3%;
+	width: 67%;
 	float: left;
 	font-family: 'Roboto', sans-serif;
+}
 
+.div-content p {
+	margin-top: 0;
 }
 
 .introduction::after {
 	display:block;
 	content:"";
 	clear:both;
+}
+
+.sub-title{
+	font-weight: 700;
+
 }
 
 .college-name {
@@ -73,7 +86,6 @@
 }
 
 .university {
-	padding-top: 3%;
 	font-weight: 700;
 	margin: 0 0 0;
 }
@@ -84,5 +96,40 @@
 
 .expected-graduation{
 	font-weight: 700;
-	color: rgb(179, 179, 179);
+	color: #F76902;
+	opacity: 50%;
+}
+
+.work {
+	font-weight: 700;
+	margin: 0 0 0;
+}
+
+.work-description {
+	font-weight: 200;
+	font-style: italic;
+	margin: 0 0 0;
+}
+
+.work-duration{
+	margin: 0 0 0;
+	color: #F76902;
+	opacity: 50%;
+	font-weight: 700;
+}
+
+footer {
+	height: 10vh;
+	width: 50vw;
+}
+
+.footer {
+	margin-top: 3%;
+	opacity: 50%;
+	display: flex;
+	justify-content: space-around;
+	/* color: #F76902; */
+	background: -webkit-linear-gradient(right, #F6BE00, #F76902);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
 }
