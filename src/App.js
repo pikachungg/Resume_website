@@ -1,6 +1,7 @@
 import React from 'react';
 import me from './assets/images/resume.jpg';
 import './App.css';
+import Introduction from './components/Introduction'
 
 function App() {
   return (
@@ -18,14 +19,15 @@ function App() {
 			
 			{/* Introduction */}
 			<div className="right">
-				<div className="introduction">
+				{/* <div className="introduction">
 					<h3>Intro: </h3>
 					<div className="div-content">
 						<p>I'm a Web developer born and raised in Panama. I'm currently on my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology.</p>
 						<p>I enjoy making people's ideas into reality. Whether it is an application or a Website I love working with people to create something from start to fnish.</p>
 						<p>I'm currently looking for a Co-Op in Summer 2020. Most experience in front-end or back-end development.</p>
 					</div>
-				</div>
+				</div> */}
+				<Introduction title="Intro:"/>
 
 				{/* EDUCATION */}
 				<div className="introduction">

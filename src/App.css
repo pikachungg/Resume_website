@@ -198,9 +198,18 @@ footer {
 		font-family: 'Roboto', sans-serif;
 	}
 
+	.introduction {
+		padding-top: 6%;
+	}
+
   }
 
   @media only screen and (max-width: 800px) {
+
+	.introduction {
+		padding-top: 10%;
+	}
+	
 	.introduction h3{
 		margin-top: 0;
 		margin-left: 2%;
