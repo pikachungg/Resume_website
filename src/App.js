@@ -3,7 +3,7 @@ import me from './assets/images/resume.jpg';
 import './App.css';
 import Content from './components/Content';
 import Education from './components/Education';
-import Introduction from './components/Tools';
+import Tools from './components/Tools';
 import Work from './components/Work';
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
 				/>
 
 				{/* TOOLS */}
-				<Introduction title="Tools: "
+				<Tools title="Tools: "
 				languages="LANGUAGES: "
 				languagesAll="Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP"
 				frameworksLibraries="FRAMEOWRKS/LIBRARIES: "
