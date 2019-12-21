@@ -12,7 +12,6 @@ class Content extends React.Component{
                 paragraphs.push(<p>{paragraphs_add}</p>);
             }   
         }
-
         return (
             <div className="introduction">
                 <h3>{props_list["title"]}</h3>
