@@ -35,7 +35,7 @@
 	width: 50%;
 	height: 100vh;
 	float: right;
-	color: rgb(48, 48, 48);
+	color: rgb(36, 36, 36);
 	background-color: #FFFFFF;
 	overflow-x: hidden;
 }
@@ -85,7 +85,7 @@
 .college-name {
 	font-style: italic;
 	font-weight: 500;
-	margin: 0 0 0;
+	margin: 0 0 5%;
 }
 
 .university {
@@ -151,7 +151,7 @@ footer {
 		width: 95vw;
 		height: auto;
 		float: none;
-		color: rgb(119, 113, 113);
+		color: rgb(36, 36, 36);
 		background-color: #FFFFFF;
 		overflow:hidden;
 	}
