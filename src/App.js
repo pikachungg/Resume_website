@@ -3,6 +3,7 @@ import me from './assets/images/resume.jpg';
 import './App.css';
 import Content from './components/Content';
 import Education from './components/Education';
+import Introduction from './components/Tools';
 
 function App() {
   return (
@@ -18,15 +19,14 @@ function App() {
 				</div>
 			</div>
 			
-			{/* Introduction */}
 			<div className="right">
-
+				{/* Introduction */}
 				<Content title="Intro:" 
 				paragraph1="I'm a Web developer born and raised in Panama. I'm currently on my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology." 
 				paragraph2="I enjoy making people's ideas into reality. Whether it is an application or a Website I love working with people to create something from start to fnish."
 				paragraph3="I'm currently looking for a Co-Op in Summer 2020. Most experience in front-end or back-end development."
 				/>
-
+				{/* Education */}
 				<Education title="Education:"
 				university="Rochester Institute of Technology"
 				collegeName="Golisano College of Computing and Information Sciences"
@@ -38,14 +38,24 @@ function App() {
 				/>
 
 				{/* TOOLS */}
-				<div className="introduction">
+				<Introduction title="Tools: "
+				languages="LANGUAGES: "
+				languagesAll="Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP"
+				frameworksLibraries="FRAMEOWRKS/LIBRARIES: "
+				frameworksAll="React, Bootstrap"
+				design="DESIGN: "
+				designAll="Adobe Photoshop, Adobe XD"
+				/>
+
+				{/* <div className="introduction">
 					<h3>Tools: </h3>
 					<div className="div-content">
 						<p><span className="sub-title">LANGUAGES:</span> Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP</p>
 						<p><span className="sub-title">FRAMEWORKS/LIBRARIES:</span> Bootstrap, React</p>
 						<p><span className="sub-title">DESIGN:</span> Adobe Photoshop, Adobe XD</p>
 					</div>
-				</div>
+				</div> */}
+
 				{/* WORK */}
 				<div className="introduction">
 					<h3>Work: </h3>
