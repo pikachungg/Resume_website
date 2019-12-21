@@ -4,6 +4,7 @@ import './App.css';
 import Content from './components/Content';
 import Education from './components/Education';
 import Introduction from './components/Tools';
+import Work from './components/Work';
 
 function App() {
   return (
@@ -47,24 +48,14 @@ function App() {
 				designAll="Adobe Photoshop, Adobe XD"
 				/>
 
-				{/* <div className="introduction">
-					<h3>Tools: </h3>
-					<div className="div-content">
-						<p><span className="sub-title">LANGUAGES:</span> Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP</p>
-						<p><span className="sub-title">FRAMEWORKS/LIBRARIES:</span> Bootstrap, React</p>
-						<p><span className="sub-title">DESIGN:</span> Adobe Photoshop, Adobe XD</p>
-					</div>
-				</div> */}
-
 				{/* WORK */}
-				<div className="introduction">
-					<h3>Work: </h3>
-					<div className="div-content">
-						<p className="work">bbb Shoes & Boots/<span className="work-description">Social Media Intern</span></p>
-						<p className="work-duration">Jan 2016 - Aug 2016</p>
-						<p>Responsible for taking and editing pictures of the company’s products for use in displays and on social media. Edited with Photoshop.</p>
-					</div>
-				</div>
+				<Work title="Work: "
+				place="bbb Shoes & Boots"
+				position="Social Media Intern"
+				duration="Jan 2016 - Aug 2016"
+				description="Responsible for taking and editing pictures of the company’s products for use in displays and on social media. Edited with Photoshop."
+				/>
+
 				{/* project */}
 				<div className="introduction">
 					<h3>Projects: </h3>
