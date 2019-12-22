@@ -56,15 +56,42 @@ function App() {
 				description="Responsible for taking and editing pictures of the company’s products for use in displays and on social media. Edited with Photoshop."
 				/>
 
+				<Work title=""
+				place="The Commons"
+				position="Line Cook"
+				duration="Sep 2017 - Aug 2016"
+				description="Worked efficiently under pressure during rush hour shifts. Implemented a faster way to close and clean at the end of the day."
+				/>	
+
+				<Work title=""
+				place="bbb Shoes and Boots"
+				position="Software Developer"
+				duration="May 2019 - Aug 2019"
+				description="Developed four web applications that helped improve the company's storage system. Using MySQL, PHP, HTML/CSS."
+				/>
+
 				{/* project */}
-				<div className="introduction">
-					<h3>Projects: </h3>
-					<div className="div-content">
-						<p className="work">Discordgg/<span className="work-description">Personal project</span></p>
-						<p className="work-duration">In development</p>
-						<p>Discord bot that retrieves information from the Riot Games’ League of Legends API and displays it on discord. Helps you keep track of player's stats and current game information. Developing with Python.</p>
-					</div>
-				</div>
+				<Work title="Projects:"
+				place="Personal Project"
+				position="Discordgg"
+				duration="In development"
+				description="Discord bot that retrieves information from the Riot Games’ League of Legends API and displays it on discord. Helps you keep track of player's stats and current game information. Developing with Python."
+				/>
+
+				<Work title=""
+				place="Project"
+				position="Swoop"
+				duration="In development"
+				description="Game developed aimed to reduce stress and for mental health. This game was developed using HTML/CSS, javascript and implemented ReactJS."
+				/>	
+
+				<Work title=""
+				place="Personal Project"
+				position="Resume Website"
+				duration="Nov 2019 - Dec 2019"
+				description="Personal website to display my resume. This project was to gain experience and develop more of my knowledge abour ReactJS. This project was developed with HTML/CSS and ReactJS."
+				/>	
+				
 				{/* Leadership */}
 				<div className="introduction">
 					<h3>Leadership: </h3>

@@ -7,7 +7,7 @@ class Work extends React.Component{
         const content = [];
         for (var i = 0; i < keys.length; i++){
             if (keys[i] === "place"){
-                content.push(<p className="work">{props_list["place"]}<span className="work-description">{props_list["position"]}</span></p>);
+                content.push(<p className="work">{props_list["position"]}/<span className="work-description">{props_list["place"]}</span></p>);
             }
             if (keys[i] === "duration"){
                 content.push(<p className="work-duration">{props_list["duration"]}</p>);
