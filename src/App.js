@@ -1,6 +1,9 @@
 import React from 'react';
 import me from './assets/images/resume.jpg';
 import './App.css';
+import instagram from './assets/images/instagram.png';
+import github from './assets/images/github.png';
+import website from './assets/images/website.png';
 import Content from './components/Content';
 import Education from './components/Education';
 import Tools from './components/Tools';
@@ -17,6 +20,9 @@ function App() {
 				<div className="image-content">
 					<h3>Hello, I'm Daniel Chung</h3>
 					<p>A Web developer that aims to create impactful websites and applications with effective code.</p>
+					<div>
+
+					</div>
 				</div>
 			</div>
 
