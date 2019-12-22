@@ -93,30 +93,20 @@ function App() {
 				/>	
 				
 				{/* Leadership */}
-				<div className="introduction">
-					<h3>Leadership: </h3>
-					<div className="div-content">
-						<p className="work">TECHO Panama/<span className="work-description">Squad Leader</span></p>
-						<p className="work-duration">Aug 2015 - Present</p>
-						<p>Developed leaderships skill through actively cooperating to society trying to diminish poverty in Panama by building houses in low access places. I've lead more than 9 teams in building houses.</p>
-					</div>
-				</div>
+
+				<Work title="Leadership:"
+				place="Squad Leader"
+				position="TECHO Panama"
+				duration="Aug 2015 - Present"
+				description="Developed leaderships skill through actively cooperating to society trying to diminish poverty in Panama by building houses in low access places. I've lead more than 9 teams in building houses."
+				/>
 
 				{/* FOOTER */}
 
-				<div className="introduction">
-					<h3>Leadership: </h3>
-					<div className="div-content">
-						<p className="work">TECHO Panama/<span className="work-description">Squad Leader</span></p>
-						<p className="work-duration">Aug 2015 - Present</p>
-						<p>Developed leaderships skill through actively cooperating to society trying to diminish poverty in Panama by building houses in low access places. I've lead more than 9 teams in building houses.</p>
-					</div>
-				</div>
-
 				<footer>
 					<div className="footer">
-						<p>Contact: pikachungg@gmail.com</p>
 						<p>Developed by: Daniel Chung</p>
+						<p>Contact: pikachungg@gmail.com</p>
 					</div>
 				</footer>
 

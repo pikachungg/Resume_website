@@ -19,7 +19,7 @@
 .image-content{
 	top: 60%;
 	left: 50%;
-	width: 20vw;
+	width: 25vw;
 	transform: translate(-50%, -50%);
 	font-family: 'Roboto', sans-serif;
 	position: absolute;
@@ -206,8 +206,12 @@ footer {
 
   @media only screen and (max-width: 800px) {
 
+	.left {
+		margin-bottom: 10%;
+	}
+
 	.introduction {
-		padding-top: 10%;
+		margin-bottom: 1%;
 	}
 	
 	.introduction h3{
@@ -243,5 +247,9 @@ footer {
 		width: 67%;
 		float: left;
 		font-family: 'Roboto', sans-serif;
+	}
+
+	footer {
+		display: none;
 	}
   }
