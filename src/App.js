@@ -21,6 +21,7 @@ function App() {
 			</div>
 
 			<div className="right">
+				<div className="space"></div>
 				{/* Introduction */}
 				<Content title="Intro:"
 				paragraph1="I'm a Web developer born and raised in Panama. I'm currently on my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology."

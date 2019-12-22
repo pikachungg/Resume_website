@@ -7,6 +7,10 @@
 	height: 100vh;
 }
 
+.space{
+	padding-bottom: 5%;
+}
+
 .left {
 	width: 50%;
 	height: 100vh;
@@ -207,7 +211,7 @@ footer {
   @media only screen and (max-width: 800px) {
 
 	.left {
-		margin-bottom: 10%;
+		margin-bottom: 5%;
 	}
 
 	.introduction {
@@ -232,6 +236,10 @@ footer {
 		transform: translate(-50%, -50%);
 		font-family: 'Roboto', sans-serif;
 		position: absolute;
+	}
+
+	.space {
+		display: none;
 	}
 
 	.right{
