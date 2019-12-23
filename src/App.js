@@ -1,6 +1,6 @@
+import './App.css';
 import React from 'react';
 import me from './assets/images/resume.jpg';
-import './App.css';
 import instagram from './assets/images/instagram.png';
 import github from './assets/images/github.png';
 import website from './assets/images/website.png';
@@ -16,12 +16,20 @@ function App() {
 		<div className="container">
 
 			<div className="left">
-				<img src={me} alt="A picture of me"/>
+				<img className="main-image" src={me} alt="A picture of me"/>
 				<div className="image-content">
 					<h3>Hello, I'm Daniel Chung</h3>
 					<p>A Web developer that aims to create impactful websites and applications with effective code.</p>
-					<div>
-
+					<div className="links">
+						<a href="https://github.com/pikachungg">
+							<img className="image-links" src={github} alt="icon link for my: github"/>
+						</a>
+						<a href="https://www.instagram.com/pikachungg/">
+							<img className="image-links" src={instagram} alt="icon link for my: instagram "/>
+						</a>
+						<a href="">
+							<img className="image-links" src={website} alt="icon link for my: website"/>
+						</a>
 					</div>
 				</div>
 			</div>

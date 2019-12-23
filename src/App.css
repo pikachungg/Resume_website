@@ -7,6 +7,19 @@
 	height: 100vh;
 }
 
+.links{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.links a {
+	width: 7%;
+}
+
+.image-links{
+	width: 100%;
+}
+
 .space{
 	padding-bottom: 5%;
 }
@@ -29,7 +42,7 @@
 	position: absolute;
 }
 
-.left img {
+.left .main-image {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
