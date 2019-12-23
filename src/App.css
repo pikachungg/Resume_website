@@ -145,13 +145,8 @@ footer {
 
 .footer {
 	margin-top: 3%;
-	opacity: 50%;
 	display: flex;
 	justify-content: space-around;
-	/* color: #F76902; */
-	background: -webkit-linear-gradient(right, #F6BE00, #F76902);
-	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -189,13 +184,8 @@ footer {
 	
 	.footer {
 		margin-top: 3%;
-		opacity: 50%;
 		display: flex;
 		justify-content: space-around;
-		/* color: #F76902; */
-		background: -webkit-linear-gradient(right, #F6BE00, #F76902);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 	}
 
 	.introduction h3{
