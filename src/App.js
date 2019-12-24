@@ -58,7 +58,7 @@ function App() {
 				<Tools title="Tools: "
 				languages="LANGUAGES: "
 				languagesAll="Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP"
-				frameworksLibraries="FRAMEOWRKS/LIBRARIES: "
+				frameworksLibraries="FRAMEWORKS/LIBRARIES: "
 				frameworksAll="React, Bootstrap"
 				design="DESIGN: "
 				designAll="Adobe Photoshop, Adobe XD"
