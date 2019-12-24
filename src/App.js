@@ -38,7 +38,7 @@ function App() {
 				<div className="space"></div>
 				{/* Introduction */}
 				<Content title="Intro:"
-				paragraph1="Hi! I'm a Web developer born and raised in Panama with Asian roots. I'm currently in my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology (RIT)."
+				paragraph1="Hi! I'm a web developer born and raised in Panama with Asian roots. I'm currently in my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology (RIT)."
 				paragraph2="I specialize in building websites and applications with easy to use and modern user interfaces and back-ends. I enjoy developing both front-end and back-end for all my sites and apps."
 				paragraph3="I'm currently looking for a Co-Op in summer 2020."
 				/>
@@ -69,21 +69,21 @@ function App() {
 				place="bbb Shoes & Boots"
 				position="Social Media Intern"
 				duration="Jan 2016 - Aug 2016"
-				description="I photographed the company's products, edited the pictures, and introduced new creative ideas for social media posts. I used my pictures for the company's website and social media. I adapted and learned photoshop."
+				description="Photographed company's products, edited the pictures, and introduced creative ideas for social media posts. Used my pictures for the company's website and social media. Learned how to use Photoshop."
 				/>
 				
 				<Work title=""
 				place="The Commons"
 				position="Line Cook"
 				duration="Sep 2017 - Aug 2016"
-				description="Worked efficiently under pressure during the rush hour shifts and implemented a faster way for closing and cleaning at the end of the day."
+				description="Worked efficiently under pressure during rush-hour shifts. Implemented a faster way for closing and cleaning at the end of the day."
 				/>	
 
 				<Work title=""
 				place="bbb Shoes and Boots"
 				position="Software Developer"
 				duration="May 2019 - Aug 2019"
-				description="I built four useful applications for the company to facilitate the communication between the information in their database and the user's experience for fetching such information. I used HTML/CSS, JavaScript, and PHP."
+				description="Built four useful applications for the company to facilitate the communication between info in their database and the user's experience for fetching such info. Used HTML/CSS, JavaScript, and PHP."
 				/>
 				<div className="space"></div>
 				{/* project */}
@@ -91,21 +91,21 @@ function App() {
 				place="Personal Project"
 				position="Discordgg"
 				duration="In development"
-				description="A Discord bot that retrieves information from the Riot Games' League of Legends API and displays user requested information on discord. It helps you keep track of the player's stats and current game information, depending on what its asked. This bot is currently being developing with Python."
+				description="Built a Discord bot that retrieves information from Riot Games' League of Legends API and displays user-requested info on Discord. Keeps track of player's stats and in-game info, depending on what is asked. Currently being developed with Python."
 				/>
 
 				<Work title=""
 				place="Project"
 				position="Swoop"
 				duration="In development"
-				description="Swoop is a game developed with mental health as our primary goal. We aimed to reduce stress and anxiety through a relaxing and engaging experience. This project developed using HTML/CSS, JavaScript, and ReactJS."
+				description="Developed a game with mental health as the primary goal. Aimed to reduce stress and anxiety through a relaxing and engaging experience. Developed using HTML/CSS, JavaScript, and ReactJS."
 				/>	
 
 				<Work title=""
 				place="Personal Project"
 				position="Resume Website"
 				duration="Nov 2019 - Dec 2019"
-				description="Personal website to display my resume. This project was to gain experience and develop more of my knowledge abour ReactJS. This project was developed with HTML/CSS and ReactJS."
+				description="Created a personal website to display my resume. Gained experience and knowledge about ReactJS. Developed with HTML/CSS and ReactJS."
 				/>	
 				
 				{/* Leadership */}
@@ -114,7 +114,7 @@ function App() {
 				place="Squad Leader"
 				position="TECHO Panama"
 				duration="Aug 2015 - Present"
-				description="Developed leaderships skill through actively cooperating to society, trying to diminish poverty in Panama by building houses in low access places. I've led more than 9 teams in building houses."
+				description="Developed leadership skills by actively cooperating with society to diminish poverty in Panama. Led more than nine teams in building houses."
 				/>
 
 				{/* FOOTER */}
