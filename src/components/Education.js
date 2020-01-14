@@ -6,7 +6,6 @@ class Education extends React.Component{
         var keys = Object.keys(props_list);
         const content = [];
         for (var i = 0; i < keys.length; i++){
-            console.log(props_list[keys[i]]);
             if (keys[i] === "university"){
                 content.push(<p className="university">{props_list["university"]}</p>);
             }

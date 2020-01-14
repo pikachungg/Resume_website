@@ -6,7 +6,6 @@ class Tools extends React.Component{
         var keys = Object.keys(props_list);
         const content = [];
         for (var i = 0; i < keys.length; i++){
-            console.log(props_list[keys[i]]);
             if (keys[i] === "languages"){
                 content.push(<p><span className="sub-title">{props_list["languages"]}</span>{props_list["languagesAll"]}</p>);
             }

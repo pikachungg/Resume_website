@@ -38,7 +38,7 @@ function App() {
 				<div className="space"></div>
 				{/* Introduction */}
 				<Content title="Intro:"
-				paragraph1="Hi! I'm a web developer born and raised in Panama with Asian roots. I'm currently in my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology (RIT)."
+				paragraph1="Hi! I'm a web developer raised in Panama with Asian roots. I'm currently in my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology (RIT)."
 				paragraph2="I specialize in building websites and applications with easy to use and modern user interfaces and back-ends. I enjoy developing both front-end and back-end for all my sites and apps."
 				paragraph3="I'm currently looking for a Co-Op in summer 2020."
 				/>
@@ -63,15 +63,17 @@ function App() {
 				design="DESIGN: "
 				designAll="Adobe Photoshop, Adobe XD"
 				/>
+
+
 				<div className="space"></div>
 				{/* WORK */}
 				<Work title="Work: "
-				place="bbb Shoes & Boots"
-				position="Social Media Intern"
-				duration="Jan 2016 - Aug 2016"
-				description="Photographed company's products, edited the pictures, and introduced creative ideas for social media posts. Used my pictures for the company's website and social media. Learned how to use Photoshop."
+				place="bbb Shoes and Boots"
+				position="Software Developer"
+				duration="May 2019 - Aug 2019"
+				description="Built four useful applications for the company to facilitate the communication between information in their database and the user. Used HTML/CSS, JavaScript, and PHP."
 				/>
-				
+
 				<Work title=""
 				place="The Commons"
 				position="Line Cook"
@@ -80,18 +82,19 @@ function App() {
 				/>	
 
 				<Work title=""
-				place="bbb Shoes and Boots"
-				position="Software Developer"
-				duration="May 2019 - Aug 2019"
-				description="Built four useful applications for the company to facilitate the communication between info in their database and the user's experience for fetching such info. Used HTML/CSS, JavaScript, and PHP."
+				place="bbb Shoes & Boots"
+				position="Social Media Intern"
+				duration="Jan 2016 - Aug 2016"
+				description="Photographed company's products, edited the pictures, and introduced creative ideas for social media posts. Used my pictures for the company's website and social media. Learned how to use Photoshop."
 				/>
+								
 				<div className="space"></div>
 				{/* project */}
 				<Work title="Projects:"
 				place="Personal Project"
 				position="Discordgg"
 				duration="In development"
-				description="Built a Discord bot that retrieves information from Riot Games' League of Legends API and displays user-requested info on Discord. Keeps track of player's stats and in-game info, depending on what is asked. Currently being developed with Python."
+				description="Built a Discord bot that retrieves information from Riot Games' League of Legends API and displays on Discord. Keeps track of player's stats and in-game information, depending on what is asked. Currently being developed with Python."
 				/>
 
 				<Work title=""

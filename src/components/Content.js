@@ -6,7 +6,6 @@ class Content extends React.Component{
         var keys = Object.keys(props_list);
         const paragraphs = [];
         for (var i = 0; i < keys.length; i++){
-            console.log(props_list[keys[i]]);
             if(keys[i] !== "title"){
                 var paragraphs_add= props_list[keys[i]];
                 paragraphs.push(<p>{paragraphs_add}</p>);

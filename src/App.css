@@ -116,7 +116,7 @@
 
 .expected-graduation{
 	font-weight: 700;
-	color: #F76902;
+	color: #FFA033;
 }
 
 .work {
@@ -132,8 +132,7 @@
 
 .work-duration{
 	margin: 0 0 0;
-	color: #F76902;
-	opacity: 50%;
+	color: #FFA033;
 	font-weight: 700;
 }
 
@@ -143,6 +142,7 @@ footer {
 }
 
 .footer {
+	color: #FFA033;
 	margin-top: 3%;
 	display: flex;
 	justify-content: space-around;
