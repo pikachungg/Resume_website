@@ -21,13 +21,13 @@ function App() {
 					<h3>Hello, I'm Daniel Chung</h3>
 					<p>A Web developer that aims to create impactful websites and applications with effective code.</p>
 					<div className="links">
-						<a href="https://github.com/pikachungg">
+						<a href="https://github.com/pikachungg" target="_blank">
 							<img className="image-links" src={github} alt="icon link for my: github"/>
 						</a>
-						<a href="https://www.instagram.com/pikachungg/">
+						<a href="https://www.instagram.com/pikachungg/" target="_blank">
 							<img className="image-links" src={instagram} alt="icon link for my: instagram "/>
 						</a>
-						<a href="">
+						<a href="https://pikachungg.github.io/portfolio/" target="_blank">
 							<img className="image-links" src={website} alt="icon link for my: website"/>
 						</a>
 					</div>
@@ -38,9 +38,9 @@ function App() {
 				<div className="space"></div>
 				{/* Introduction */}
 				<Content title="Intro:"
-				paragraph1="Hi! I'm a web developer raised in Panama with Asian roots. I'm currently in my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology (RIT)."
+				paragraph1="Hi! I'm a web developer based in Rochester, New York. I'm currently in my third year pursuing a degree in Web and Mobile Computing at Rochester Institute of Technology (RIT)."
 				paragraph2="I specialize in building websites and applications with easy to use and modern user interfaces and back-ends. I enjoy developing both front-end and back-end for all my sites and apps."
-				paragraph3="I'm currently looking for a Co-Op in summer 2020."
+				paragraph3="I'm currently looking for a Co-Op in Summer/Fall or double-block 2020."
 				/>
 				<div className="space"></div>
 				{/* Education */}
@@ -51,13 +51,13 @@ function App() {
 				titleMinor="Minor: "
 				Major="Web and Mobile Computing"
 				Minor="Computer Science"
-				expected="Expected Graduation: Spring 2021"
+				expected="Expected Graduation: Spring 2022"
 				/>
 				<div className="space"></div>
 				{/* TOOLS */}
 				<Tools title="Tools: "
 				languages="LANGUAGES: "
-				languagesAll="Python, Java, C, MySQL, HTML5, CSS3, JavaScript, PHP"
+				languagesAll="Python, Java, MySQL, HTML5, CSS3, JavaScript, PHP"
 				frameworksLibraries="FRAMEWORKS/LIBRARIES: "
 				frameworksAll="React, Bootstrap"
 				design="DESIGN: "
@@ -91,13 +91,6 @@ function App() {
 				<div className="space"></div>
 				{/* project */}
 				<Work title="Projects:"
-				place="Personal Project"
-				position="Discordgg"
-				duration="In development"
-				description="Built a Discord bot that retrieves information from Riot Games' League of Legends API and displays on Discord. Keeps track of player's stats and in-game information, depending on what is asked. Currently being developed with Python."
-				/>
-
-				<Work title=""
 				place="Project"
 				position="Swoop"
 				duration="In development"
@@ -106,14 +99,33 @@ function App() {
 
 				<Work title=""
 				place="Personal Project"
-				position="Resume Website"
-				duration="Nov 2019 - Dec 2019"
-				description="Created a personal website to display my resume. Gained experience and knowledge about ReactJS. Developed with HTML/CSS and ReactJS."
+				position="Personal Website"
+				duration="Feb 2020 - Mar2020"
+				description="Created a personal website to display my portofolio and information about me. Developed with HTML/CSS and ReactJS."
 				/>	
+
+				<Work title=""
+				place="Personal Project"
+				position="Discordgg"
+				duration="In development"
+				description="Built a Discord bot that retrieves information from Riot Games' League of Legends API and displays on Discord. Keeps track of player's stats and in-game information, depending on what is asked. Currently being developed with Python."
+				/>
 				
 				{/* Leadership */}
 				<div className="space"></div>
 				<Work title="Leadership:"
+				place="Web Developer"
+				position="Asian Cultural Society"
+				duration="Dec2020 - Present"
+				description="In charged of developing all web related work inside of ACS and creating scripts to automate tasks. Managing Discord, Slack and the website."
+				/>
+				<Work title=""
+				place="Executive Assistant Web Developer"
+				position="Asian Cultural Society"
+				duration="Aug 2020 - Dec 2020"
+				description="Helping with the development of web related work of ACS and create scripts to automate tasks. Managing Discord, Slack and the website"
+				/>
+				<Work title=""
 				place="Squad Leader"
 				position="TECHO Panama"
 				duration="Aug 2015 - Present"
